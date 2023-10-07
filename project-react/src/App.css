@@ -1,0 +1,32 @@
+.App {
+  text-align: center;
+  background-color: #202e4b;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #000000;
+}
+.Cabeça {
+  top: 0;
+  position: relative;
+  text-align: center;
+  width: 100%;
+  overflow: hidden;
+}
+.Appbody {
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  .Searchbar{
+    color: #202e4b;
+    background-color: rgb(253, 253, 253);
+    border-radius: 5%;
+  }
+}
